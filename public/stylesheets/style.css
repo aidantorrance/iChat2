@@ -1,8 +1,36 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: palegreen;
 }
 
 a {
   color: #00B7FF;
+}
+
+head {
+  background-color: lime;
+}
+
+.navbar-brand {
+  color: lime;
+}
+
+.loginbox {
+  width: 500px;
+  height: 400px;
+  background-color: lightgrey;
+  text-align: center;
+  justify-content: center;
+  margin-left: 300px;
+  font-size: 40px;
+}
+
+.logintext {
+  font-family: impact;
+}
+
+.login {  
+  display: flex;
+  justify-content: space-around;
 }
